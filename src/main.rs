@@ -72,7 +72,7 @@ fn main() {
 
 #[test]
 fn arabic_to_roman_works() {
-    const SIZE: usize = 999;
+    const SIZE: usize = 1000;
     let r = Roman::new();
     let roman: [String; SIZE] = [
         "I".to_string(),
@@ -1074,6 +1074,7 @@ fn arabic_to_roman_works() {
         "CMXCVII".to_string(),
         "CMXCVIII".to_string(),
         "CMXCIX".to_string(),
+        "M".to_string(),
     ];
 
     for i in 0..SIZE {
